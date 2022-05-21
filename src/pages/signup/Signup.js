@@ -33,16 +33,16 @@ export default function Signup() {
       <label>
         <span>display name:</span>
         <input 
-          type="file"        
-          required 
+          type="text"
+          onChange={(e) => setDisplayName(e.target.value)}
+          value={displayName}
+          required
         />
       </label>
       <label>
         <span>profile thumbnail:</span>
         <input 
-          type="email"
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
+          type="file"          
           required 
         />
       </label>
