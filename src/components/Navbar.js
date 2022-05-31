@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useLogout } from '../hooks/useLogout'
 import { useAuthContext } from '../hooks/useAuthContext'
+import { MdWater } from "react-icons/md";
 
 // styles & images
 import './Navbar.css'
@@ -14,9 +15,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <ul>
-        <li className="logo">
-          <img src={Temple} alt="dojo logo"></img>
-          <span>The Dojo</span>
+        <li className="logo">          
+          <MdWater className='logo-icon' />
+          <span>Work Flow</span>
         </li>
 
         {!user && (
