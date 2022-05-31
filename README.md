@@ -5,7 +5,7 @@ Comment on project progress.
 #### React/Firebase/Firestore
 
 ## :video_camera: Live Demo
-<a href="https://financetracker-f047d.web.app/">Click Here!</a>
+<a href="https://workflow-3b9d0.web.app/">Click Here!</a>
 
 ## :camera: Screenshots
 ![Dashboard](https://github.com/T-Pirozzini/Work-Flow/blob/main/src/assets/main.png?raw=true)
